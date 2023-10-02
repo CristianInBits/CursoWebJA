@@ -1,0 +1,76 @@
+/* 
+******************** Selectores Básicos ********************
+
+'Selector de etiqueta' - Cambiar el estilo a todos los elementos P {p}
+
+'Selector de clase' - Cambia los estilos a los títulos {.titulo}
+
+'Selectores de ID' - Cambia el color de la matrícula {#nombreId}
+
+'Selector de emojis' - Cambia el color al primer elemento p {.🏋🏼‍♂️}
+
+'Selector universal' - Cambia el color a todos {*}
+
+*/
+
+/* p{
+    background-color: teal;
+    color: white;
+}
+
+.titulo{
+    background-color: aliceblue;
+    color: teal;
+    text-align: center;
+}
+
+#parrafoNum1{
+    background-color: lightsalmon;
+    text-align: end;
+}
+
+.🏋🏼‍♂️{
+    background-color: brown;
+    color: aliceblue;
+}
+
+*{
+    background-color: teal;
+    color: aliceblue;
+} */
+
+/* 
+********************  Combinadores ********************
+
+'Selectores Agrupados' - Centra el texto de .Parrafo y .Titulo1 {.parrafo, .titulo1}
+
+'Selectores Descendientes' - Usando .titulo dale estilos SÓLO a los títulos del 2 al 4 {.principal .titulo}
+
+'Selectores Múltiples' - Usando .titulo y .titulo3, cambiarle los estilos a este elemento {.titulo.titulo3}
+
+'Selector Hijo directo' - Usando .titulo solo cambiar estilos a titulo3 y tiutulo4 {.principal>.titulo}
+
+*/
+
+/* .parrafo, .titulo1{
+    text-align: center;
+} */
+
+/* .principal .titulo{
+    background-color: teal;
+    color: white;
+} */
+
+/* .titulo.titulo3{
+    background-color: brown;
+    color: black;
+}
+
+p.parrafo.titulo2{
+    color: blue;
+} */
+
+/* .principal>.titulo{
+    background-color: brown;
+    color: white;
+} */
